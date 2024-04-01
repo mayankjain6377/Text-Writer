@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+strong {
+    margin-left: 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h2 {
+    margin-left: 15%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.complete {
+    width: 100vw;
+    margin-left: -6%;
+    margin-top: -15px;
 }
 
-.App-link {
-  color: #61dafb;
+.mb-3 {
+    align-items: center;
+    width: 700px;
+    margin-left: 15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blank {
+    height: 50px;
+    width: 330px;
+    color: rgb(11, 60, 60);
+    text-align: center;
+    background-color: #d8646480;
+}
+
+.TextForm {
+    text-align: center;
+    background-color: #e3b4b4;
+    display: inline;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 12px 20px;
+
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.counter {
+    text-align: center;
+    background-color: #E2B3B3;
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    color: #07090f;
+}
+
+.btns {
+    height: 37px;
+    width: 170px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background-color: #0B5ED7;
+}
+
+.hide {
+    height: 500px;
+    overflow: scroll;
+}
+
+.enable {
+    margin-left: 85%;
+    font-size: 1rem;
+    color: #0D6EFD;
+}
+
+.text {
+    padding: 12px 12px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c3d86480;
+}
+
+@media (max-width:665px) {
+    .mb-3 {
+        margin-left: -15px;
+        width: 370px;
+    }
+
+    .parent {
+        margin-left: 20%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .h2 {
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-bottom: -40px;
+    }
+
+    .preview {
+        margin-left: 25px;
+    }
+
+    .hide {
+        width: 370px;
+        height: 300px;
+        margin-left: 25px;
+        padding: 5px;
+        border: #0B5ED7 solid 1.5px;
+    }
 }
